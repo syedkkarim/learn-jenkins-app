@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
                 sh 'echo "Hello Hello from Jenkins via shell" '
                 sh 'whoami'
-                sh 'date'
+                
             }
         }
     }
